@@ -16,20 +16,6 @@
 
 	You should have received a copy of the GNU General Public License
 	along with this program.  If not, see <http://www.gnu.org/licenses/>.
-	
-	---------------------------------------------------------------------
-	
-	USAGE: Upload this file to a PHP-capable server, browse to the full URL of the file,
-	and add two parameters, a and b, to the end of the URL to specify which numbers
-	you would like to find the GCD of.
-	
-	EXAMPLE: http://www.example.com/gcd.php?a=12&b=20 would give you the GCD of 12 and 20 (=4),
-	as well as show you the steps used using Euclid's algorithm to obtain the final answer.
-	
-	OTHER NOTES:	x*b + y*a = r
-					r is the remainder
-					q is the quotient
-					i is the iteration	
 */
 
 $b = $_GET["b"];
